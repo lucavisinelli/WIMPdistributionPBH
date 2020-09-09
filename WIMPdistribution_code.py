@@ -9,7 +9,7 @@ from scipy import interpolate
 ###
 ###  This code computes the density of WIMPs around a PBH
 ###  We use the setup introduced in 1607.00612, see also 1712.06383
-###  We have used the code for the results in 20XX.XXXXX
+###  We have used the code for the results in 2008.08077
 ###
 ###  Please send questions to luca.visinelli@gmail.com
 ###
