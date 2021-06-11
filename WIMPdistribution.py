@@ -178,7 +178,7 @@ def rhoF3d(x, M, m):
       X     = np.geomspace(eps, 1., NT)/Y/(1.+Y)
       ll[i] = np.trapz(integrand3d(X, Y, x, M, m), X)
     a  = a + np.trapz(ll, xc)
-    return a#*RhoMax(m)/(a+RhoMax(m))
+    return a*RhoMax(m)/(a+RhoMax(m))
 rhoF3d = np.vectorize(rhoF3d)
 
 def f3d(x, M, m):
