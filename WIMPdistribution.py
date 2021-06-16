@@ -164,18 +164,18 @@ integrand3d = np.vectorize(integrand3d)
 def rhoF3d(x, M, m):
     # WIMP density spike around the PBH
     # See Eq.A10 in 2011.01930
-    NT = 100
+    NT = 400
     ll = np.zeros(NT)
     # Integration over the region xi<x
     xc = np.geomspace(eps, 1., NT)
     for i, Y in enumerate(xc):
-      X     = np.geomspace(1./(1.+Y), 1., NT)/Y
+      X     = np.linspace(1./(1.+Y), 1., NT)/Y
       ll[i] = np.trapz(integrand3d(X, Y, x, M, m), X)
     a  = np.trapz(ll, xc)
     # Integration over the region xi>x
     xc = np.geomspace(1., 1.e30, NT)
     for i, Y in enumerate(xc):
-      X     = np.geomspace(eps, 1., NT)/Y/(1.+Y)
+      X     = np.linspace(eps, 1., NT)/Y/(1.+Y)
       ll[i] = np.trapz(integrand3d(X, Y, x, M, m), X)
     a  = a + np.trapz(ll, xc)
     return a*RhoMax(m)/(a+RhoMax(m))
