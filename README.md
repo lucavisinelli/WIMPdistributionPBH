@@ -1,4 +1,4 @@
-# WIMPdistribution
+# WIMPdistributionPBH
 
 *github repository for the code giving the density distribution of WIMPs around a PBH.*
 
