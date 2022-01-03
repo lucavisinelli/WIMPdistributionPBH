@@ -6,10 +6,10 @@ The code has been written and maintained by Luca Visinelli (SJTU). For any inqui
 
 ### References
 The code has been used in:
-* B. Carr, F. Kühnel, L. Visinelli, [Mon. Not. Roy. Astron. Soc. 506 3, 3648 (2021)](https://doi.org/10.1093/mnras/stab1930) [2011.01930](https://arxiv.org/abs/2011.01930).
-* B. Carr, F. Kühnel, L. Visinelli, [Mon. Not. Roy. Astron. Soc. 501 2, 2029 (2021)](https://doi.org/10.1093/mnras/staa3651) [2008.08077](https://arxiv.org/abs/2008.08077).
+* B. Carr, F. Kühnel, L. Visinelli, [Mon. Not. Roy. Astron. Soc. 506 3, 3648 (2021)](https://doi.org/10.1093/mnras/stab1930), [[2011.01930]](https://arxiv.org/abs/2011.01930).
+* B. Carr, F. Kühnel, L. Visinelli, [Mon. Not. Roy. Astron. Soc. 501 2, 2029 (2021)](https://doi.org/10.1093/mnras/staa3651), [[2008.08077]](https://arxiv.org/abs/2008.08077).
 
-If you use this code, please cite the associated papers above, as well as the work of Y. Eroshenko [1607.00612](http://arxiv.org/abs/1607.00612) and Boucenna et al. [1712.06383](http://arxiv.org/abs/1712.06383)
+If you use this code, please cite the associated papers above, as well as the work of Y. Eroshenko [[1607.00612]](http://arxiv.org/abs/1607.00612) and S. Boucenna et al. [[1712.06383]](http://arxiv.org/abs/1712.06383)
 
 ************************************************************************************************
 
