@@ -1,5 +1,7 @@
 # WIMPdistributionPBH
 
+[![DOI](https://zenodo.org/badge/DOI/10.1093/mnras/stab1930.svg)](https://doi.org/10.1093/mnras/stab1930) [![arXiv](https://img.shields.io/badge/arXiv-2011.01930-B31B1B)](http://arxiv.org/abs/2011.01930)
+
 *github repository for the code giving the density distribution of WIMPs around a PBH.*
 
 The code has been written and maintained by Luca Visinelli (SJTU). For any inquire, please contact [luca.visinelli@sjtu.edu.cn](mailto:luca.visinelli@sjtu.edu.cn)
